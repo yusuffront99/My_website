@@ -1,3 +1,41 @@
+body {
+    background-color: #e4e6eb;
+    color: #071c4d;
+    font-family: 'Assistant', sans-serif;
+}
+
 .navbar-brand {
     font-weight: bold;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071c4d;
+
+            &.active {
+                font-weight: bold;
+                color: #071c4d !important;
+            }
+        }
+    }
+}
+
+.btn-login {
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+        background-color: #173f9c;
+        color: #fff;
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
 }
