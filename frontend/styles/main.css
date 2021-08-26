@@ -1,7 +1,16 @@
+:root {
+  --main-font: 'Assistant', sans-serif;
+  --second-font: 'Playfair Display', serif;
+}
+
+:root {
+  --color-btn: #FF9E53;
+}
+
 body {
   background-color: #e4e6eb;
   color: #071c4d;
-  font-family: 'Assistant', sans-serif;
+  font-family: var(--main-font);
 }
 
 .navbar-brand {
@@ -47,7 +56,7 @@ header h1, header p {
 }
 
 header h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--second-font);
   font-weight: bold;
   font-size: 50px;
 }
@@ -57,12 +66,85 @@ header p {
 }
 
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: var(--color-btn);
   color: #fff;
 }
 
 header .btn-get-started:hover {
-  background-color: #ff8d37;
+  background-color: var(--color-btn);
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  padding-left: 40px;
+  background-color: #fff;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #071c4d;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: var(--second-font);
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: var(--color-btn);
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #f77d21;
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
