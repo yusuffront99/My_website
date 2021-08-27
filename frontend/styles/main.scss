@@ -277,3 +277,27 @@ header {
         font-weight: bolder;
     }
 }
+
+// === DETAILS CSS
+.section-details-header {
+    min-height: 310px;
+    background: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+        margin-top: -210px;
+        min-height: 100vh;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: var(--font-color);
+        }
+    }
+}

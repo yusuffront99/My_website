@@ -254,4 +254,23 @@ header .btn-get-started:hover {
   font-family: var(--font-color);
   font-weight: bolder;
 }
+
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: var(--font-color);
+}
 /*# sourceMappingURL=main.css.map */
