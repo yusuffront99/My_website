@@ -8,6 +8,7 @@
   --color-hover: #fa8e3b;
   --color-bg: #071cd4;
   --color-base: #ffffff;
+  --font-color: #071C4D;
 }
 
 body {
@@ -247,5 +248,10 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-get-started:hover {
   background-color: var(--color-hover);
   color: var(--color-base);
+}
+
+.section-footer h5, .section-footer a {
+  font-family: var(--font-color);
+  font-weight: bolder;
 }
 /*# sourceMappingURL=main.css.map */

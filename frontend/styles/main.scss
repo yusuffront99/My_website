@@ -9,6 +9,7 @@
     --color-hover : #fa8e3b;
     --color-bg : #071cd4;
     --color-base : #ffffff;
+    --font-color : #071C4D;
 }
 
 body {
@@ -265,5 +266,14 @@ header {
             background-color: var(--color-hover);
             color: var(--color-base);
         }
+    }
+}
+
+// section footer
+.section-footer {
+
+    h5, a {
+        font-family: var(--font-color);
+        font-weight: bolder;
     }
 }
