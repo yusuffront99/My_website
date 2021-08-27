@@ -5,6 +5,7 @@
 
 :root {
   --color-btn: #FF9E53;
+  --color-bg: #071cd4;
 }
 
 body {
@@ -160,7 +161,28 @@ header .btn-get-started:hover {
   font-weight: bold;
 }
 
+.section-network p {
+  font-size: 18px;
+}
+
 .section-network img {
   max-width: 100%;
+}
+
+.section-testimonial-heading {
+  padding-top: 50px;
+  min-height: 506px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+}
+
+.section-testimonial-heading h2 {
+  font-family: var(--second-font);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

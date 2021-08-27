@@ -6,6 +6,7 @@
 
 :root {
     --color-btn : #FF9E53;
+    --color-bg : #071cd4;
 }
 
 body {
@@ -177,7 +178,29 @@ header {
         font-weight: bold;
     }
 
+    p {
+        font-size: 18px;
+    }
+
     img {
         max-width: 100%;
     }
+}
+
+// section-testimonial-heading
+.section-testimonial-heading {
+    padding-top: 50px;
+    min-height: 506px;
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+
+    h2 {
+        font-family: var(--second-font);
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
 }
