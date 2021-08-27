@@ -6,11 +6,13 @@
 
 :root {
     --color-btn : #FF9E53;
+    --color-hover : #fa8e3b;
     --color-bg : #071cd4;
+    --color-base : #ffffff;
 }
 
 body {
-    background-color: #e4e6eb;
+    background-color: var(--color-base);
     color: #071c4d;
     font-family: var(--main-font)
 }
@@ -191,7 +193,7 @@ header {
 .section-testimonial-heading {
     padding-top: 50px;
     min-height: 506px;
-    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    background: linear-gradient(#fff 0%, #ebfdfc 100%);
 
     h2 {
         font-family: var(--second-font);
@@ -203,4 +205,65 @@ header {
         font-size: 18px;
     }
 
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 200;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+        }
+    }
+
+    .btn-need-help {
+        background-color: #d0d3d8;
+        color: var(--color-base);
+
+        &:hover {
+            background-color: rgb(202, 198, 198);
+            color: var(--color-base);
+        }
+    }
+
+    .btn-get-started {
+        background-color: var(--color-btn);
+        color: var(--color-base);
+
+        &:hover {
+            background-color: var(--color-hover);
+            color: var(--color-base);
+        }
+    }
 }

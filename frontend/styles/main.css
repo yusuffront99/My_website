@@ -5,11 +5,13 @@
 
 :root {
   --color-btn: #FF9E53;
+  --color-hover: #fa8e3b;
   --color-bg: #071cd4;
+  --color-base: #ffffff;
 }
 
 body {
-  background-color: #e4e6eb;
+  background-color: var(--color-base);
   color: #071c4d;
   font-family: var(--main-font);
 }
@@ -172,8 +174,8 @@ header .btn-get-started:hover {
 .section-testimonial-heading {
   padding-top: 50px;
   min-height: 506px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
-  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ebfdfc));
+  background: linear-gradient(#fff 0%, #ebfdfc 100%);
 }
 
 .section-testimonial-heading h2 {
@@ -184,5 +186,66 @@ header .btn-get-started:hover {
 
 .section-testimonial-heading p {
   font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .card-testimonial img {
+  width: 180px;
+  height: 180px;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #d0d3d8;
+  color: var(--color-base);
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #cac6c6;
+  color: var(--color-base);
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: var(--color-btn);
+  color: var(--color-base);
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: var(--color-hover);
+  color: var(--color-base);
 }
 /*# sourceMappingURL=main.css.map */
