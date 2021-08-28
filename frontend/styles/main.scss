@@ -282,7 +282,7 @@ header {
 .section-details-header {
     min-height: 310px;
     background: #E4E6EB;
-    margin-top: -70px;
+    margin-top: -76px;
 
 }
 
@@ -303,7 +303,7 @@ header {
         }
     }
 
-    .card-details {
+    .card-details {        
         padding: 30px;
         border-radius: 11px;
         
@@ -318,12 +318,47 @@ header {
         }
 
         p {
-            font-size: 18px;
+            font-size: 16px;
             color: #b1b1b1;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #071c4d;
+        }
+
+        .disclaimer {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+
+            .input-group-append {
+                .btn {
+                    padding-right: 30px;
+                }
+            }
+        }
+
+        .btn-add-now {
+            background-color: #173f9c;
+            color: var(--color-base);
+            
+            &:hover {
+                background-color: var(--color-bg);
+                color: var(--color-base);
+            }
         }
     }
 
-    
+
+
     .card-right {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
@@ -393,4 +428,8 @@ header {
         background-color: var(--color-hover);
         color: var(--color-base);
     }
+}
+
+.cek {
+    background-color: red;
 }
