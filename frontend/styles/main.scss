@@ -273,8 +273,8 @@ header {
 .section-footer {
 
     h5, a {
-        font-family: var(--font-color);
-        font-weight: bolder;
+        color: var(--font-color);
+        font-weight: bold;
     }
 }
 
@@ -493,4 +493,31 @@ header {
 
 .cek {
     background-color: red;
+}
+
+.section-success {
+    height: 90vh;
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #071C4D;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        background-color: var(--font-color);
+        border-radius: 4px;
+        color: var(--color-base);
+
+        &:hover {
+            background-color: var(--color-bg);
+            color: var(--color-base);
+        }
+    }
 }
