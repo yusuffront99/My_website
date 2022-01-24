@@ -1,0 +1,43 @@
+<mjml>
+    <mj-body background-color="#E4E6EB" font-size="13px">
+    <!-- LOGO  -->
+        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="0px" padding-bottom="0px" border-bottom="1px dashed #eee">
+            <mj-column width="100%" vertical-align="top">
+                <mj-image src="frontend/images/logo_nomads.png" alt="" align="center" border="none" width="150px" padding-left="0px" padding-right="0px" padding-bottom="25px" padding-top="30px" />
+            </mj-column>
+        </mj-section>
+
+    <!-- CONTENTS -->
+        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="0px" padding-bottom="0px" border-bottom="1px dashed #eee">
+            <mj-column width="100%" vertical-align="top">
+                <mj-text align="center" color="#071C4D" font-size="30px" font-weight="bold" font-family="Playfair Display, Time New Roman, Serif" padding-left="25px" padding-right="25px" padding-top="30px" padding-bottom="25px">
+                    Don't Forget Your E-Ticket
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    <!-- IMAGES CONTENTS -->
+        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="0px" padding-bottom="0px" border-bottom="1px dashed #eee">
+            <mj-column width="100%" vertical-align="top">
+                <mj-image src="frontend/images/image_show.png" alt="" align="center" border="none" width="550px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+            </mj-column>
+        </mj-section>
+
+    <!-- CONTENTS -->
+        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="20px" padding-bottom="20px" border-bottom="1px dashed #eee">
+            <mj-column width="100%" vertical-align="top" border-bottom="1px dashed #eee">
+                <mj-text align="left" color="#071C4D" font-size="18px" font-family="Assistant,Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" padding-top="30px" padding-bottom="25px">
+                    Hi, Yusuf <br>
+                    Tiket digital kamu sudah berhasil dicetak
+                    <br>Booking ID <strong>#22081996</strong>
+                </mj-text>
+
+                <mj-table color="#071C4D" font-size="28px" font-family="Assistant,Helvetica, Arial,Sans-serif" padding-left="25px" padding-right="25px">
+                    <tr>
+                        <td></td\>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
