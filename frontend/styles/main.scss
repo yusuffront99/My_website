@@ -521,3 +521,26 @@ header {
         }
     }
 }
+
+.login-container {
+    @media (min-width : 922px) {
+        background: linear-gradient(90deg, #fff 60%, #e4e6eb 40%);
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.page-login {
+    height: 100vh;
+
+    .btn-login {
+        background-color: #FF9E53;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    
+}
