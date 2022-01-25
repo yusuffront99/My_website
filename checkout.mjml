@@ -26,17 +26,48 @@
     <!-- CONTENTS -->
         <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="20px" padding-bottom="20px" border-bottom="1px dashed #eee">
             <mj-column width="100%" vertical-align="top" border-bottom="1px dashed #eee">
-                <mj-text align="left" color="#071C4D" font-size="18px" font-family="Assistant,Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" padding-top="30px" padding-bottom="25px">
+                <mj-text align="left" color="#071C4D" font-size="20px" font-family="Assistant,Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" padding-top="30px" padding-bottom="25px" line-height="28px"> 
                     Hi, Yusuf <br>
                     Tiket digital kamu sudah berhasil dicetak
                     <br>Booking ID <strong>#22081996</strong>
                 </mj-text>
 
-                <mj-table color="#071C4D" font-size="28px" font-family="Assistant,Helvetica, Arial,Sans-serif" padding-left="25px" padding-right="25px">
+    <!-- DETAILS CONTENT  -->
+                <mj-table color="#071C4D" font-size="20px" font-family="Assistant,Helvetica, Arial,Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
                     <tr>
-                        <td></td\>
+                        <td colspan="3">Members</td\>
+                    </tr>
+                    <tr>
+                        <td><strong>Yusuf</strong></td\>
+                        <td style="text-align:right;"><strong>Australia, AU</strong></td\>
+                    </tr>
+                    <tr>
+                        <td><strong>Ahmad</strong></td\>
+                        <td style="text-align:right;"><strong>Indonesia, ID</strong></td\>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Members</td\>
                     </tr>
                 </mj-table>
+
+    <!-- DETAILS CONTENT  -->
+                <mj-table color="#071C4D" font-size="20px" font-family="Assistant,Helvetica, Arial,Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
+                    <tr>
+                        <td colspan="3">Travel Details</td\>
+                    </tr>
+                    <tr>
+                        <td><strong>Departure</strong></td\>
+                        <td style="text-align:right;"><strong>Nusa Penida</strong></td\>
+                    </tr>
+                    <tr>
+                        <td><strong>Date and Time</strong></td\>
+                        <td style="text-align:right;"><strong>Thu, 20 Jan, 2022</strong></td\>
+                    </tr>
+                </mj-table>
+
+                <mj-button font-size="18px" border-radius="5px" background-color="#FF9E53" border-radius="5px" font-family="Assistant, Helvetica, Arial, sans-serif">
+                    check Detail
+                </mj-button>
             </mj-column>
         </mj-section>
     </mj-body>
