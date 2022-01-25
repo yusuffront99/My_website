@@ -17,57 +17,86 @@
         </mj-section>
 
     <!-- IMAGES CONTENTS -->
-        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="0px" padding-bottom="0px" border-bottom="1px dashed #eee">
+        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="0px" padding-bottom="0px">
             <mj-column width="100%" vertical-align="top">
                 <mj-image src="frontend/images/image_show.png" alt="" align="center" border="none" width="550px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
             </mj-column>
         </mj-section>
 
-    <!-- CONTENTS -->
-        <mj-section background-color="#FFFFFF" vertical-align="top" padding-top="20px" padding-bottom="20px" border-bottom="1px dashed #eee">
-            <mj-column width="100%" vertical-align="top" border-bottom="1px dashed #eee">
-                <mj-text align="left" color="#071C4D" font-size="20px" font-family="Assistant,Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" padding-top="30px" padding-bottom="25px" line-height="28px"> 
-                    Hi, Yusuf <br>
-                    Tiket digital kamu sudah berhasil dicetak
-                    <br>Booking ID <strong>#22081996</strong>
+        <mj-section background-color="#FFFFFF" vertical-align="middle" padding-top="20px" padding-bottom="20px" border-bottom="1px dashed #eee">
+            <mj-column width="100%" vertical-align="top">
+                <mj-text align="left" color="#071C4D" font-size="18px" font-family="Assistant, Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
+                    Hi, Yusuf
+                    <br><br>
+                    Tiket digital kamu sudah berhasil di cetak
+                    <br>
+                    Booking ID <Strong>#25012022</Strong>
                 </mj-text>
 
-    <!-- DETAILS CONTENT  -->
-                <mj-table color="#071C4D" font-size="20px" font-family="Assistant,Helvetica, Arial,Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
+                <mj-table align="left" color="#071C4D" font-size="18px" font-family="Assistant, Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
                     <tr>
-                        <td colspan="3">Members</td\>
+                        <td colspan="3">Members</td>
                     </tr>
                     <tr>
-                        <td><strong>Yusuf</strong></td\>
-                        <td style="text-align:right;"><strong>Australia, AU</strong></td\>
+                        <td><Strong>Yusuf</Strong></td>
+                        <td style="text-align:right">Australia, AU</td>
                     </tr>
                     <tr>
-                        <td><strong>Ahmad</strong></td\>
-                        <td style="text-align:right;"><strong>Indonesia, ID</strong></td\>
+                        <td><Strong>Ahmad</Strong></td>
+                        <td style="text-align:right">Indonesia, ID</td>
+                    </tr>
+                </mj-table>
+                <mj-table align="left" color="#071C4D" font-size="18px" font-family="Assistant, Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
+                <mj-text align="left" color="#071C4D" font-size="18px" font-family="Assistant, Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
+                    Hi, Yusuf
+                    <br><br>
+                    Tiket digital kamu sudah berhasil di cetak
+                    <br>
+                    Booking ID <Strong>#25012022</Strong>
+                </mj-text>
+                    <tr>
+                        <td colspan="3">Travel Details</td>
                     </tr>
                     <tr>
-                        <td colspan="3">Members</td\>
+                        <td><Strong>Departure</Strong></td>
+                        <td style="text-align:right">Nusa Penida</td>
+                    </tr>
+                    <tr>
+                        <td><Strong>Date and Time</Strong></td>
+                        <td style="text-align:right">Thu, 25 Jan 2022</td>
                     </tr>
                 </mj-table>
 
-    <!-- DETAILS CONTENT  -->
-                <mj-table color="#071C4D" font-size="20px" font-family="Assistant,Helvetica, Arial,Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
-                    <tr>
-                        <td colspan="3">Travel Details</td\>
-                    </tr>
-                    <tr>
-                        <td><strong>Departure</strong></td\>
-                        <td style="text-align:right;"><strong>Nusa Penida</strong></td\>
-                    </tr>
-                    <tr>
-                        <td><strong>Date and Time</strong></td\>
-                        <td style="text-align:right;"><strong>Thu, 20 Jan, 2022</strong></td\>
-                    </tr>
-                </mj-table>
-
-                <mj-button font-size="18px" border-radius="5px" background-color="#FF9E53" border-radius="5px" font-family="Assistant, Helvetica, Arial, sans-serif">
-                    check Detail
+                <mj-button align="center" font-size="18px" font-weight="bold" background-color="#FF9E53" border-radius="7px" font-family="Assistant, Hervetica, Arial, Sans-serif">
+                    Check Detail
                 </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#FFFFFF" padding-top="0px" padding-bottom="0px">
+            <mj-column>
+            <mj-text align="left" color="#071C4D" font-size="18px" font-family="Assistant, Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px" line-height="28px">
+                Butuh Bantuan?
+            </mj-text>
+                <mj-table>
+                    <tr>
+                        <td style="width:50px">
+                            <img src="frontend/images/ic_language.png" width="50px">
+                        </td>
+                        <td style="font-size:18px; padding-left:10px; color:#071C4D; font-family:Assistant, Hervetica, Arialm Sans-serif">
+                            support@nomads.id
+                            <br>
+                            021-2022-0124
+                        </td>
+                    </tr>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-bottom="30px" padding-top="3px">
+            <mj-column>
+                <mj-text align="center" color="#888B93" font-family="Assistant, Hervetica, Arial, Sans-serif" padding="30px 25px 0px 30px">
+                    2022 Nomads Copyright All Right Recieved
+                </mj-text>
             </mj-column>
         </mj-section>
     </mj-body>
